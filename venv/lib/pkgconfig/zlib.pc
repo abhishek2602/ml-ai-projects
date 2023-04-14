@@ -1,0 +1,13 @@
+prefix=/Users/abhishek/Documents/TMLC MGP/venv
+exec_prefix=/Users/abhishek/Documents/TMLC MGP/venv
+libdir=/Users/abhishek/Documents/TMLC MGP/venv/lib
+sharedlibdir=/Users/abhishek/Documents/TMLC MGP/venv/lib
+includedir=/Users/abhishek/Documents/TMLC MGP/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
